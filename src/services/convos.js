@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:8000/';
+const baseURL = '/';
 
 const getConvos = async () => {
   let userInfo = JSON.parse(localStorage.getItem('userInfo'));

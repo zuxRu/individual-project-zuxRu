@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:8000/';
+const baseURL = '/';
 
 const login = ({ username }) => {
   console.log(username);
