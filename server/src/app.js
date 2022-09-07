@@ -26,7 +26,6 @@ app.use(
     origin: '*',
   })
 );
-app.listen(process.env.PORT || 3000);
 
 app.use(express.static('build'));
 if (process.env.NODE_ENV === 'development') {
