@@ -26,6 +26,7 @@ app.use(
     origin: '*',
   })
 );
+app.use(express.static('build'));
 if (process.env.NODE_ENV === 'development') {
   // only use in development
   app.use(errorhandler({ log: errorNotification }));
